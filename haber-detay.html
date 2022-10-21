@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="tr">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Otomobil Sayfası" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
+		rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/swiper.css" type="text/css">
+
+	<!-- Date & Time Picker CSS -->
+	<link rel="stylesheet" href="assets/css/components/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/components/timepicker.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/components/daterangepicker.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/custom-responsive.css" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Finans Gündem</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Loader -->
+	<div id="tgLoader">
+		<img src="assets/images/@finans-gundem/logo.png" alt="Yükleniyor..." draggable="false">
+	</div>
+
+	<!-- Start Side Bar -->
+	<div id="tgSideBar">
+		<div class="tg-sidebar-top">
+			<button type="button" class="fg-btn-square .fg-btn-outline tg-toggle-sidebar">
+				<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill="#58667E"
+						d="M1.00005 2.00015L2.41426 0.585938L8.91432 7.086L15 1.00027L16.4143 2.41449L10.3285 8.50021L16.5564 14.7281L15.1422 16.1423L8.91432 9.91442L2.27212 16.5566L0.85791 15.1424L7.50011 8.50021L1.00005 2.00015Z" />
+				</svg>
+			</button>
+		</div>
+
+		<!-- Side Bar Navigation -->
+		<nav class="tg-nav"></nav>
+
+		<div class="tg-app-links">
+			<a href="#" target="_blank" class="tg-app-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+					<path id="Path_2545" data-name="Path 2545"
+						d="M9.173,6.372c-.876,0-2.232-1-3.66-.96A5.4,5.4,0,0,0,.929,8.2c-1.956,3.4-.5,8.412,1.4,11.172.936,1.344,2.04,2.856,3.5,2.808,1.4-.06,1.932-.912,3.636-.912s2.172.912,3.66.876c1.512-.024,2.472-1.368,3.4-2.724a12.06,12.06,0,0,0,1.536-3.156,4.9,4.9,0,0,1-2.976-4.488,4.978,4.978,0,0,1,2.4-4.212,5.2,5.2,0,0,0-4.056-2.2c-1.848-.144-3.4,1.008-4.26,1.008Zm3.12-2.832A4.851,4.851,0,0,0,13.449,0a4.99,4.99,0,0,0-3.264,1.68A4.64,4.64,0,0,0,9.009,5.112,4.137,4.137,0,0,0,12.293,3.54Z"
+						transform="translate(2.451 0.85)" />
+				</svg>
+				<div>
+					<span>Uygulamayı İndir</span>
+					App Store
+				</div>
+			</a>
+
+			<a href="#" target="_blank" class="tg-app-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+					<path id="Path_2653" data-name="Path 2653"
+						d="M.609,0,10.792,10.186.61,20.372a1,1,0,0,1-.61-.92V.92A1,1,0,0,1,.609,0ZM11.5,10.893l2.3,2.3L2.864,19.528Zm3.2-3.2,2.8,1.628a1,1,0,0,1,0,1.73l-2.8,1.626-2.494-2.491ZM2.864.844,13.8,7.176l-2.3,2.3Z"
+						transform="translate(3 1.814)" />
+				</svg>
+				<div>
+					<span>Uygulamayı İndir</span>
+					Play Store
+				</div>
+			</a>
+		</div>
+
+		<div class="tg-footer-logo-wrap">
+			<a href="/">
+				<img src="assets/images/@finans-gundem/logo.png" alt="Otomobil Sayfası" draggable="false">
+			</a>
+			<p>Tüm hakları <a href="#" target="_blank">Gündem Medya Grubu</a>'na aittir.</p>
+		</div>
+
+		<div class="abbr-links">
+			<a href="#" class="abbr-link">
+				<span style="background-color: #1E3849; color: #fff">FG</span>
+				Finans Gündem
+			</a>
+			<a href="#" class="abbr-link">
+				<span style="background-color: #000; color: #fff;">OG</span>
+				Otomobil Sayfası
+			</a>
+			<a href="#" class="abbr-link">
+				<span style="background-color: #F8D349; color: #171924;">BG</span>
+				Borsa Gündem
+			</a>
+		</div>
+
+		<div class="tg-sidebar-bottom">
+			<div class="tg-footer-bottom-item">
+				<div class="tg-footer-bottom-links">
+					<a href="#" class="tg-footer-bottom-link">RSS</a>
+					<a href="#" class="tg-footer-bottom-link">Künye</a>
+					<a href="#" class="tg-footer-bottom-link">İletişim</a>
+					<a href="#" class="tg-footer-bottom-link">Reklam</a>
+				</div>
+			</div>
+			<div class="tg-footer-bottom-item">
+				<p class="tg-footer-copy">&copy; 2021 <a href="/">TeknolojiGündem.com</a>.<br><br><span>Tüm hakları
+						saklıdır.</span></p>
+			</div>
+		</div>
+	</div>
+	<!-- End Side Bar -->
+
+	<!-- Start Finans Gündem Borsa -->
+	<div id="fgBorsa"></div>
+	<!-- End Finans Gündem Borsa -->
+
+	<!-- Start Header Top -->
+	<div id="tgHeaderTop">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-6 col-lg-5 abbr-links">
+					<div id="headerTopDate">
+						<svg xmlns="http://www.w3.org/2000/svg" width="13.333" height="13.333" viewBox="0 0 13.333 13.333">
+							<path id="Path_429" data-name="Path 429"
+								d="M10,1.333h2.667A.667.667,0,0,1,13.333,2V12.667a.667.667,0,0,1-.667.667h-12A.667.667,0,0,1,0,12.667V2a.667.667,0,0,1,.667-.667H3.333V0H4.667V1.333h4V0H10Zm2,4V2.667H10V4H8.667V2.667h-4V4H3.333V2.667h-2V5.333Zm0,1.333H1.333V12H12ZM2.667,8H6v2.667H2.667Z"
+								fill="#58667e" />
+						</svg>
+						<span>14 Ağustos 2022</span>
+					</div>
+
+					<a href="#" class="abbr-link">
+						<span style="background-color: rgba(194, 71, 66, 0.1); color: #c24742">OS</span>
+						Otomobil Sayfası
+					</a>
+					<a href="#" class="abbr-link">
+						<span style="background-color: rgba(0, 0, 0, 0.2); color: #000000;">TG</span>
+						Teknoloji Gündem
+					</a>
+					<a href="#" class="abbr-link">
+						<span style="background-color: rgba(248, 210, 73, 0.5); color: #171924;">BG</span>
+						Borsa Gündem
+					</a>
+				</div>
+
+				<div class="col-3 col-lg-3 ml-auto">
+					<div class="tgHeaderTop-search-wrap">
+						<input id="tgHeaderTop-search" type="search" placeholder="site içerisinde ara..." autocomplete="off">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Header Top -->
+
+	<!-- Start Header -->
+	<header id="tgHeader">
+
+		<div id="tgHeader-logo-wrap">
+			<div class="container">
+				<a href="/">
+					<img src="assets/images/@finans-gundem/logo.png" alt="Otomobil Sayfası" draggable="false">
+				</a>
+
+				<div id="headerBanner">
+					<a href="#" target="_blank" class="ad">
+						<img src="assets/images/@finans-gundem/ad.png">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="tg-mobile-header">
+			<div class="tg-mobile-header-wrap"><button type="button" class="fg-btn-square fg-btn-outlined tg-toggle-sidebar">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16">
+						<path fill="#58667e" d="M0,0H18V2H0ZM0,7H12V9H0Zm0,7H18v2H0Z" />
+					</svg>
+				</button>
+
+				<a href="#" class="tg-mobile-logo">
+					<img src="assets/images/@finans-gundem/logo.png" alt="Otomobil Sayfası">
+				</a>
+
+				<button type="button" class="fg-btn-square fg-btn-outlined" id="TGToggleSearch">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20.314" height="20.314" viewBox="0 0 20.314 20.314">
+						<path fill="#58667e"
+							d="M9,0A9,9,0,1,1,2.636,2.636,9,9,0,0,1,9,0ZM9,16a7,7,0,1,0-4.95-2.05A7,7,0,0,0,9,16Zm8.485.071L20.314,18.9,18.9,20.314l-2.828-2.829,1.414-1.414Z" />
+					</svg>
+				</button>
+			</div>
+
+			<input type="search" id="tgMobileSearch" class="fg-input" placeholder="Site içerisinde arama yap...">
+		</div>
+
+		<nav class="tg-nav">
+			<a href="index.html" class="tg-nav-item">Gündem</a>
+			<a href="#" class="tg-nav-item">Bankacılık</a>
+			<a href="#" class="tg-nav-item">Kripto Paralar</a>
+			<a href="#" class="tg-nav-item">Finans-Kulis</a>
+			<a href="#" class="tg-nav-item">Sigorta-Bes</a>
+			<a href="#" class="tg-nav-item">Emlak</a>
+			<a href="#" class="tg-nav-item">Para-Piyasa</a>
+			<a href="#" class="tg-nav-item">Banka Dışı Finans</a>
+			<a href="yazarlar.html" class="tg-nav-item">Yazarlar</a>
+
+			<div class="tg-nav-sponsor">
+				<a href="#" target="_blank" title="GCM Yatırım">
+					<img height="39px" src="assets/images/@finans-gundem/gcm-yatirim.png" alt="GCM Yatırım">
+				</a>
+			</div>
+		</nav>
+
+	</header>
+	<!-- End Header -->
+
+	<!-- Document Wrapper
+	============================================= -->
+	<main id="wrapper" class="clearfix">
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+
+				<!--=====================================
+													  START FG HOME CONTENT
+				===================================== -->
+
+				<section class="container">
+					<div class="row">
+
+						<!-- Start Section With Aside -->
+						<section class="col-lg-9">
+
+							<!-- Start Breadcrumbs -->
+							<section>
+								<ul class="fg-breadcrumbs">
+									<li>
+										<a href="/">Ana Sayfa</a>
+									</li>
+									<li>
+										<a href="#">
+											Makro Ekonomi
+										</a>
+									</li>
+									<li>
+										<a>
+											Küresel gıda fiyatları yükselmeye devam ediyor
+										</a>
+									</li>
+								</ul>
+							</section>
+							<!-- End Breadcrumbs -->
+
+							<!-- Start Article -->
+							<article>
+								<div class="article-container">
+
+									<!-- Start Article Top -->
+									<div class="article-top">
+										<a href="#" title="Oto Gündem" class="article-category-tag">
+											Makro Ekonomi
+										</a>
+
+										<div class="article-top-items">
+											<div class="article-top-item">
+												<div class="article-top-item elapsed">
+													<svg xmlns="http://www.w3.org/2000/svg" width="13.333" height="13.333"
+														viewBox="0 0 13.333 13.333">
+														<path
+															d="M10,1.333h2.667A.667.667,0,0,1,13.333,2V12.667a.667.667,0,0,1-.667.667h-12A.667.667,0,0,1,0,12.667V2a.667.667,0,0,1,.667-.667H3.333V0H4.667V1.333h4V0H10Zm2,4V2.667H10V4H8.667V2.667h-4V4H3.333V2.667h-2V5.333Zm0,1.333H1.333V12H12ZM2.667,8H6v2.667H2.667Z" />
+													</svg>
+													2 Eylül 2021
+												</div>
+
+												<div class="article-top-item">
+													<svg xmlns="http://www.w3.org/2000/svg" width="13.333" height="13.333"
+														viewBox="0 0 13.333 13.333">
+														<path
+															d="M6.667,13.333a6.667,6.667,0,1,1,4.714-1.953,6.667,6.667,0,0,1-4.714,1.953Zm0-1.333A5.333,5.333,0,1,0,2.9,10.438,5.333,5.333,0,0,0,6.667,12Zm.667-5.333H10V8H6V3.333H7.333Z" />
+													</svg>
+													15:29
+												</div>
+											</div>
+
+											<a href="#" class="article-top-item">
+												<svg xmlns="http://www.w3.org/2000/svg" width="11.738" height="12.724"
+													viewBox="0 0 11.738 12.724">
+													<path
+														d="M7.967,3.815,4.2,7.586a.667.667,0,1,0,.943.943L8.91,4.758A2,2,0,1,0,6.082,1.929L2.31,5.7a3.333,3.333,0,1,0,4.714,4.713L10.8,6.643l.943.943L7.967,11.357a4.667,4.667,0,1,1-6.6-6.6L5.139.987A3.333,3.333,0,1,1,9.853,5.7L6.082,9.473A2,2,0,0,1,3.253,6.643L7.024,2.872Z" />
+												</svg>
+												www.finansgundem.com
+											</a>
+										</div>
+
+										<div class="article-toolbar">
+											<button type="button" class="fg-btn-icon" id="articleZoomOut">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.928" height="16.929"
+													viewBox="0 0 16.928 16.929">
+													<path fill="#58667e"
+														d="M13.359,12.181l3.569,3.569L15.75,16.929,12.181,13.36a7.5,7.5,0,1,1,1.178-1.178Zm-1.672-.618a5.833,5.833,0,1,0-.125.125l.125-.125Zm-7.521-4.9h6.667V8.334H4.166Z"
+														transform="translate(0)" />
+												</svg>
+											</button>
+
+											<button type="button" class="fg-btn-icon" id="articleZoomIn">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.928" height="16.929"
+													viewBox="0 0 16.928 16.929">
+													<path fill="#58667e"
+														d="M13.359,12.181l3.569,3.569L15.75,16.929,12.181,13.36a7.5,7.5,0,1,1,1.178-1.178Zm-1.672-.618a5.833,5.833,0,1,0-.125.125l.125-.125Zm-5.021-4.9v-2.5H8.333v2.5h2.5V8.334h-2.5v2.5H6.666v-2.5h-2.5V6.667Z"
+														transform="translate(0)" />
+												</svg>
+											</button>
+
+											<button type="button" class="fg-btn-icon" id="articlePrint" onclick="window.print()">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+													viewBox="0 0 16.667 16.667">
+													<path fill="#58667e"
+														d="M3.333,14.167H.833A.833.833,0,0,1,0,13.333V5a.833.833,0,0,1,.833-.833h2.5V.833A.833.833,0,0,1,4.167,0H12.5a.833.833,0,0,1,.833.833V4.167h2.5A.833.833,0,0,1,16.667,5v8.333a.833.833,0,0,1-.833.833h-2.5v1.667a.833.833,0,0,1-.833.833H4.167a.833.833,0,0,1-.833-.833Zm0-1.667v-.833a.833.833,0,0,1,.833-.833H12.5a.833.833,0,0,1,.833.833V12.5H15V5.833H1.667V12.5ZM5,1.667v2.5h6.667v-2.5ZM5,12.5V15h6.667V12.5ZM2.5,6.667H5V8.333H2.5Z" />
+												</svg>
+											</button>
+										</div>
+									</div>
+									<!-- End Article Top -->
+
+									<!-- Article Title - primary -->
+									<h1 class="article-title">
+										Küresel gıda fiyatları yükselmeye devam ediyor
+									</h1>
+
+									<!-- Article Main Image -->
+									<div class="article-img article-main-img">
+
+										<!-- Article Share -->
+										<aside class="article-share">
+											<a href="#" target="_blank" title="Twitter ile paylaş"
+												class="article-share-item article-share-tw">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.987" height="13.811"
+													viewBox="0 0 16.987 13.811">
+													<path fill="#fff"
+														d="M16.986,1.64a6.987,6.987,0,0,1-2,.548A3.5,3.5,0,0,0,16.517.26a6.965,6.965,0,0,1-2.213.846A3.485,3.485,0,0,0,8.366,4.284,9.9,9.9,0,0,1,4.388,3.226,9.9,9.9,0,0,1,1.184.642,3.49,3.49,0,0,0,2.262,5.3,3.473,3.473,0,0,1,.684,4.86V4.9a3.487,3.487,0,0,0,2.8,3.417A3.508,3.508,0,0,1,1.9,8.38,3.487,3.487,0,0,0,5.159,10.8,6.995,6.995,0,0,1,0,12.245a9.858,9.858,0,0,0,5.342,1.567,9.849,9.849,0,0,0,9.917-9.917c0-.15,0-.3-.011-.45a7.083,7.083,0,0,0,1.739-1.8Z" />
+												</svg>
+											</a>
+											<a href="#" target="_blank" title="Facebook ile paylaş"
+												class="article-share-item article-share-fb">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.688" height="16.566"
+													viewBox="0 0 16.688 16.566">
+													<path fill="#fff"
+														d="M8.343,0a8.333,8.333,0,0,0-1.3,16.566V10.742H4.926V8.333H7.043V6.5A2.94,2.94,0,0,1,10.19,3.258a12.827,12.827,0,0,1,1.865.167v2.05h-1.05a1.2,1.2,0,0,0-1.358,1.3V8.333h2.311l-.369,2.408H9.647v5.824A8.333,8.333,0,0,0,8.343,0Z" />
+												</svg>
+											</a>
+											<a href="#" target="_blank" title="Linkedin ile paylaş"
+												class="article-share-item article-share-li">
+												<svg xmlns="http://www.w3.org/2000/svg" width="15.883" height="15" viewBox="0 0 15.883 15">
+													<path fill="#fff"
+														d="M3.333,1.667A1.667,1.667,0,1,1,2.845.488a1.667,1.667,0,0,1,.488,1.179Zm.05,2.9H.05V15H3.383Zm5.267,0H5.333V15H8.617V9.525c0-3.05,3.975-3.333,3.975,0V15h3.292V8.392c0-5.142-5.883-4.95-7.267-2.425Z" />
+												</svg>
+											</a>
+											<a href="#" target="_blank" title="WhatsApp ile paylaş"
+												class="article-share-item article-share-wp">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.669"
+													viewBox="0 0 16.667 16.669">
+													<path fill="#fff"
+														d="M.006,16.669l1.127-4.14a8.333,8.333,0,1,1,3.015,3.011ZM5.332,4.425a.8.8,0,0,0-.309.083,1.077,1.077,0,0,0-.245.19,1.857,1.857,0,0,0-.217.255,2.274,2.274,0,0,0-.471,1.4,2.917,2.917,0,0,0,.275,1.178A7.961,7.961,0,0,0,6.006,9.814c.178.177.352.356.54.522a7.873,7.873,0,0,0,3.2,1.705l.474.072a4.531,4.531,0,0,0,.463-.011,1.658,1.658,0,0,0,.694-.192c.138-.073.2-.11.319-.183,0,0,.036-.023.1-.075a1.912,1.912,0,0,0,.275-.24.957.957,0,0,0,.175-.25,2.321,2.321,0,0,0,.157-.611,1.634,1.634,0,0,0,.012-.311.284.284,0,0,0-.158-.221L11.776,9.8s-.725-.316-1.167-.517a.417.417,0,0,0-.148-.034.4.4,0,0,0-.315.106,10.037,10.037,0,0,0-.667.777.292.292,0,0,1-.307.108,1.18,1.18,0,0,1-.159-.055c-.1-.043-.139-.06-.21-.091h0a5.008,5.008,0,0,1-1.308-.833c-.105-.092-.2-.192-.3-.288a5.25,5.25,0,0,1-.85-1.062l-.049-.083a.769.769,0,0,1-.083-.167.268.268,0,0,1,.051-.221s.2-.222.3-.342a3.65,3.65,0,0,0,.219-.311.5.5,0,0,0,.077-.447q-.345-.855-.721-1.7A.423.423,0,0,0,5.8,4.434c-.045-.005-.09-.01-.135-.013a2.821,2.821,0,0,0-.333,0Z" />
+												</svg>
+											</a>
+											<a href="#" target="_blank" title="Telegram ile paylaş"
+												class="article-share-item article-share-tg">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+													viewBox="0 0 16.667 16.667">
+													<path fill="#fff"
+														d="M8.333,16.667a8.333,8.333,0,1,1,5.893-2.441,8.333,8.333,0,0,1-5.893,2.441ZM5.742,9.308,5.753,9.3l.725,2.392c.093.259.222.306.378.284a.577.577,0,0,0,.342-.2l.99-.957,2.125,1.573c.388.214.667.1.764-.36l1.381-6.518c.153-.607-.114-.85-.583-.657L3.763,7.99c-.553.222-.55.532-.1.667l2.083.65Z" />
+												</svg>
+											</a>
+											<a href="#" target="_blank" title="Mail ile paylaş" class="article-share-item article-share-mail">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.527"
+													viewBox="0 0 16.667 16.527">
+													<path fill="#fff"
+														d="M.2,4.739,7.908.119a.833.833,0,0,1,.858,0l7.7,4.621a.417.417,0,0,1,.2.357v10.6a.833.833,0,0,1-.833.833h-15A.833.833,0,0,1,0,15.694V5.1a.417.417,0,0,1,.2-.358ZM1.667,5.8V14.86H15V5.8l-6.667-4-6.667,4Zm6.717,4.639L12.8,6.725,13.873,8,8.4,12.61,2.8,8l1.06-1.285Z" />
+												</svg>
+											</a>
+										</aside>
+
+										<img src="https://picsum.photos/500/300" alt="Küresel gıda fiyatları yükselmeye devam ediyor">
+									</div>
+
+									<!-- Article Content -->
+									<div class="article-content">
+
+										<div class="article-inner">
+
+											<!-- Article Title - secondary -->
+											<h3 class="article-title">
+												Global gıda fiyatları ağustosta yeniden yükselişe döndü
+											</h3>
+
+											<!-- Article Text -->
+											<p>
+												<a href="http://www.xinhuanet.com" target="_blank">Xinhua</a>’nın haberine göre, <em>Çin
+													Ulusal Basın ve Yayın İdaresi</em> tarafından yayımlanan bildiride, yetişkin olmayan
+												kişilerin <span>ruhsal ve fiziksel</span> sağlığının korunması ve <b>oyun bağımlılığının</b>
+												engellenmesinin amaçlandığıbelirtildi. Bildiride, çevrim içi oyun firmalarından, reşit
+												olmayanlar için oyun saatlerini cuma günü ve hafta sonları 20.00-21.00 saatleri ile sınırlı
+												tutmaları istendi.
+											</p>
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum felis, id faucibus
+												justo. Integer quis magna nulla. In vestibulum elit nec eros congue sagittis. Suspendisse ut sem
+												quis diam varius eleifend sit amet a ligula. Mauris ut ornare urna. Cras nisi mi, interdum eu
+												tristique sed, faucibus a tellus. Donec at gravida sem. Curabitur consequat venenatis tellus nec
+												tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla accumsan, nulla eu
+												iaculis posuere, ipsum nisi luctus nibh, vitae ornare nunc nisi eu lectus. Phasellus in elit in
+												nisl vestibulum elementum. Vivamus consectetur sagittis metus, quis venenatis ligula tincidunt
+												at. In vehicula lorem hendrerit, luctus diam et, feugiat diam.
+											</p>
+
+											<!-- Article Image -->
+											<div class="article-img">
+												<img src="https://picsum.photos/500/300" alt="Küresel gıda fiyatları yükselmeye devam ediyor">
+											</div>
+
+											<p>
+												Nunc efficitur sem efficitur, consectetur tellus ut, bibendum diam. Nullam semper ornare arcu.
+												Suspendisse id dapibus ex, eu congue orci. Donec tellus turpis, molestie non sodales eu,
+												hendrerit nec nisl. Fusce a volutpat nisl. Donec velit massa, ullamcorper sit amet enim quis,
+												porttitor condimentum nulla. Pellentesque ut auctor magna, eget interdum est. Fusce vel enim
+												mauris. Cras velit lorem, iaculis ac vestibulum sit amet, aliquam vel odio. Vivamus eget luctus
+												elit. Duis dapibus ac lorem vel bibendum.
+											</p>
+
+											<h4 class="article-subtitle">
+												Şeker Fiyatları Yükseldi
+											</h4>
+
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum felis, id faucibus
+												justo. Integer quis magna nulla. In vestibulum elit nec eros congue sagittis. Suspendisse ut sem
+												quis diam varius eleifend sit amet a ligula. Mauris ut ornare urna. Cras nisi mi, interdum eu
+												tristique sed, faucibus a tellus. Donec at gravida sem. Curabitur consequat venenatis tellus nec
+												tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla accumsan, nulla eu
+												iaculis posuere, ipsum nisi luctus nibh, vitae ornare nunc nisi eu lectus. Phasellus in elit in
+												nisl vestibulum elementum. Vivamus consectetur sagittis metus, quis venenatis ligula tincidunt
+												at. In vehicula lorem hendrerit, luctus diam et, feugiat diam.
+											</p>
+
+											<h4 class="article-subtitle">
+												Tahıl Fiyatları da Artıyor
+											</h4>
+											<p>
+												Nunc efficitur sem efficitur, consectetur tellus ut, bibendum diam. Nullam semper ornare arcu.
+												Suspendisse id dapibus ex, eu congue orci. Donec tellus turpis, molestie non sodales eu,
+												hendrerit nec nisl. Fusce a volutpat nisl. Donec velit massa, ullamcorper sit amet enim quis,
+												porttitor condimentum nulla. Pellentesque ut auctor magna, eget interdum est. Fusce vel enim
+												mauris. Cras velit lorem, iaculis ac vestibulum sit amet, aliquam vel odio. Vivamus eget luctus
+												elit. Duis dapibus ac lorem vel bibendum.
+											</p>
+
+											<div class="article-header">
+												<h3 class="article-title">Olayın Videosu</h3>
+											</div>
+
+											<!-- Start TG Video Player -->
+											<div class="tg-video-player">
+												<video src="assets/images/@finans-gundem/video-placeholder.mp4" class="tg-video"></video>
+
+												<!-- Start TG Video Player Controls -->
+												<div class="tg-video-player-controls">
+
+													<button class="tg-video-play-button" title="Oynat">
+														<svg xmlns="http://www.w3.org/2000/svg" width="24.967" height="24.967"
+															viewBox="0 0 24.967 24.967">
+															<path class="play-icon" fill="#fff"
+																d="M12.484,24.967a12.484,12.484,0,1,1,8.827-3.656,12.484,12.484,0,0,1-8.827,3.656ZM10.763,8.008a.5.5,0,0,0-.776.414v8.122a.5.5,0,0,0,.776.414l6.09-4.06a.5.5,0,0,0,0-.831l-6.092-4.06Z" />
+															<path class="pause-icon" fill="#fff"
+																d="M12.485,24.969a12.484,12.484,0,1,1,8.827-3.656A12.484,12.484,0,0,1,12.485,24.969Zm-3-16.985h1a1,1,0,0,1,1,1v7a1,1,0,0,1-1,1h-1a1,1,0,0,1-1-1v-7A1,1,0,0,1,9.485,7.984Zm6,0h-1a1,1,0,0,0-1,1v7a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1v-7A1,1,0,0,0,15.485,7.984Z"
+																fill-rule="evenodd" />
+														</svg>
+													</button>
+
+													<div class="tg-video-time">
+														<span class="tg-video-current">0:00</span>&nbsp;/&nbsp;<span
+															class="tg-video-duration">0:00</span>
+													</div>
+
+													<div class="tg-video-progress">
+														<div class="tg-video-progress-filled"></div>
+													</div>
+
+													<div class="tg-video-time">
+														<span class="tg-video-remaining">0:00</span>
+													</div>
+
+													<button class="tg-video-sharescreen">
+														<svg xmlns="http://www.w3.org/2000/svg" width="18.725" height="16.853"
+															viewBox="0 0 18.725 16.853">
+															<path fill="#fff"
+																d="M.936,0H17.789a.936.936,0,0,1,.936.936v14.98a.936.936,0,0,1-.936.936H12.172a12.265,12.265,0,0,0-.143-1.873h4.825V1.873H1.873V4.825A12.265,12.265,0,0,0,0,4.681V.936A.936.936,0,0,1,.936,0ZM10.3,16.853H8.426a8.426,8.426,0,0,0-2.468-5.958A8.426,8.426,0,0,0,0,8.426V6.554a10.3,10.3,0,0,1,3.941.784A10.3,10.3,0,0,1,7.283,9.57a10.3,10.3,0,0,1,2.233,3.341A10.3,10.3,0,0,1,10.3,16.853Zm-3.745,0H4.681a4.681,4.681,0,0,0-.356-1.791A4.681,4.681,0,0,0,3.31,13.543a4.681,4.681,0,0,0-1.519-1.015A4.681,4.681,0,0,0,0,12.172V10.3a6.554,6.554,0,0,1,4.634,1.92,6.554,6.554,0,0,1,1.92,4.634Zm-3.745,0H0V14.044a2.809,2.809,0,0,1,1.986.823,2.809,2.809,0,0,1,.823,1.986Z" />
+														</svg>
+													</button>
+
+													<button class="tg-video-volume-button">
+														<svg xmlns="http://www.w3.org/2000/svg" width="20.602" height="15.814"
+															viewBox="0 0 20.602 15.814">
+															<path fill="#fff"
+																d="M8.426,3.432l-3.183,2.6H1.873V9.78H5.243l3.183,2.6Zm-3.849,8.22H.936A.936.936,0,0,1,0,10.716V5.1a.936.936,0,0,1,.936-.936H4.577L9.534.106A.468.468,0,0,1,10.3.468V15.346a.468.468,0,0,1-.765.362L4.578,11.652Zm12.656,3.871L15.907,14.2a8.426,8.426,0,0,0-.272-12.814l1.33-1.33a10.3,10.3,0,0,1,.272,15.469Zm-3.317-3.317-1.331-1.331a3.745,3.745,0,0,0-.3-6.143l1.347-1.347a5.618,5.618,0,0,1,.281,8.822Z" />
+															<path class="tg-video-muted-icon" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"
+																d="M7.34387 4.31706L8.426 3.43314V5.42012L10.3 7.33037V0.469141C10.3002 0.380271 10.2751 0.293176 10.2277 0.218042C10.1802 0.142909 10.1123 0.0828434 10.032 0.0448712C9.95162 0.00689897 9.86211 -0.0074103 9.77393 0.00361703C9.68575 0.0146444 9.60253 0.0505523 9.534 0.107141L6.02885 2.9766L7.34387 4.31706ZM8.426 12.3811V11.7031L10.3 13.6134V15.3471C10.3001 15.4358 10.2749 15.5227 10.2275 15.5977C10.1801 15.6726 10.1123 15.7326 10.0322 15.7705C9.95201 15.8084 9.86271 15.8228 9.77469 15.8119C9.68667 15.8011 9.60354 15.7654 9.535 15.7091L4.577 11.6531H0.936C0.813083 11.6531 0.691369 11.6289 0.577808 11.5819C0.464248 11.5349 0.361064 11.4659 0.274148 11.379C0.187232 11.2921 0.118287 11.1889 0.0712488 11.0753C0.0242104 10.9618 0 10.8401 0 10.7171V5.10114C0 4.8529 0.098614 4.61482 0.274148 4.43929C0.449682 4.26376 0.687757 4.16514 0.936 4.16514H1.03105L2.8636 6.03314H1.873V9.78114H5.243L8.426 12.3811Z" />
+															<path class="tg-video-muted-icon" fill="#fff"
+																d="M0.928041 0.490211L0.499733 0.910392C0.22376 1.18113 0.219515 1.62432 0.490251 1.9003L14.1431 15.8172C14.4138 16.0932 14.857 16.0974 15.133 15.8267L15.5613 15.4065C15.8372 15.1358 15.8415 14.6926 15.5708 14.4166L1.91795 0.499693C1.64721 0.22372 1.20401 0.219475 0.928041 0.490211Z" />
+														</svg>
+														<input type="range" class="tg-video-volume" min="0" max="1" step="0.01" value="1" />
+													</button>
+
+													<button class="tg-video-fullscreen">
+														<svg xmlns="http://www.w3.org/2000/svg" width="18.725" height="16.853"
+															viewBox="0 0 18.725 16.853">
+															<path fill="#fff"
+																d="M13.108,0h5.618V5.618H16.853V1.873H13.108ZM0,0H5.618V1.873H1.873V5.618H0ZM16.853,14.98V11.235h1.873v5.618H13.108V14.98Zm-14.98,0H5.618v1.873H0V11.235H1.873Z" />
+														</svg>
+													</button>
+
+												</div>
+												<!-- End TG Video Player Controls -->
+											</div>
+											<!-- End TG Video Player -->
+
+											<div class="other-articles">
+												<a href="#" class="other-article"
+													title="Global gıda fiyatları ağustosta yeniden yükselişe döndü">
+													<div class="other-article-img">
+														<img src="https://picsum.photos/500/500"
+															alt="Global gıda fiyatları ağustosta yeniden yükselişe döndü">
+													</div>
+													<h4 class="other-article-title">Global gıda fiyatları ağustosta yeniden yükselişe döndü</h4>
+												</a>
+												<a href="#" class="other-article"
+													title="Global gıda fiyatları ağustosta yeniden yükselişe döndü">
+													<div class="other-article-img">
+														<img src="https://picsum.photos/500/500"
+															alt="Global gıda fiyatları ağustosta yeniden yükselişe döndü">
+													</div>
+													<h4 class="other-article-title">Global gıda fiyatları ağustosta yeniden yükselişe döndü</h4>
+												</a>
+											</div>
+
+										</div>
+										<!-- End Article Inner -->
+
+									</div>
+									<!-- End Article Content -->
+
+									<!-- Start Article Tags -->
+									<div class="article-bottom">
+										<span>Etiketler:</span>
+
+										<div class="tags">
+											<a href="#" class="tag">küresel gıda fiyatları</a>
+											<a href="#" class="tag">BM Gıda ve Tarım Organizasyonu (FAO)</a>
+										</div>
+
+									</div>
+									<!-- End Article Tags -->
+
+								</div>
+							</article>
+							<!-- End Article -->
+
+							<!-- Start Comments -->
+							<section class="comments-wrap">
+								<div class="section-header section-header-lg section-header-blue section-header-tapped">
+									<div class="section-title">
+										<h4>
+											<svg xmlns="http://www.w3.org/2000/svg" width="14.667" height="13.667"
+												viewBox="0 0 14.667 13.667">
+												<path fill="#fff"
+													d="M10.533,11.333,8.667,13.667,6.8,11.333H3.333a.667.667,0,0,1-.667-.667V3.4a.667.667,0,0,1,.667-.667H14a.667.667,0,0,1,.667.667v7.267a.667.667,0,0,1-.667.667ZM.667,0H12V1.333H1.333V8.667H0v-8A.667.667,0,0,1,.667,0Z" />
+											</svg>
+											YORUMLAR (2)
+										</h4>
+									</div>
+								</div>
+
+								<div class="section-card">
+									<div class="comments">
+										<form class="row" id="newComment">
+											<div class="col-lg-6">
+												<label for="commentName">Adınız Soyadınız</label>
+												<input type="name" class="fg-input" id="commentName" placeholder="Adınız Soyadınız">
+
+												<label>Yorumunuza Emoji Ekleyin</label>
+												<div class="emojis" id="commentEmoji" data-target="#comment">
+													<span class="emoji" data-id="0x1F601" title="Gülen yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-beaming-face.png">
+													</span>
+													<span class="emoji" data-id="0x1F60A" title="Gülümseyen yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-smiling-face.png">
+													</span>
+													<span class="emoji" data-id="0x1F609" title="Göz kırpan yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-winking-face.png">
+													</span>
+													<span class="emoji" data-id="0x1F60D" title="Gözleri kalpli yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-smiling-face-with-heart-eyes.png">
+													</span>
+													<span class="emoji" data-id="0x1F970" title="Kalpli yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-smiling-face-with-hearts.png">
+													</span>
+													<span class="emoji" data-id="0x1F618" title="Öpücük atan yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-face-blowing-a-kiss.png">
+													</span>
+													<span class="emoji" data-id="0x1F60B" title="Lezzetli">
+														<img src="assets/images/@finans-gundem/icons/emoji-face-savoring-food.png">
+													</span>
+													<span class="emoji" data-id="0x1F609" title="Göz kırpan yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-winking-face.png">
+													</span>
+													<span class="emoji" data-id="0x1F61C" title="Göz kırpan, dil çıkaran yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-winking-face-with-tongue.png">
+													</span>
+													<span class="emoji" data-id="0x1F928" title="Kaşını kaldıran yüz">
+														<img src="assets/images/@finans-gundem/icons/emoji-face-with-raised-eyebrow.png">
+													</span>
+												</div>
+											</div>
+
+											<div class="col-lg-6">
+												<label for="comment">Yorumunuzu Yazın</label>
+												<textarea name="comment" id="comment" class="fg-textarea"
+													placeholder="Yorumunuz editörlerimiz tarafından incelendikten sonra yayınlanacaktır."></textarea>
+											</div>
+
+											<div class="col-12">
+												<button type="submit" id="submitComment" class="fg-btn fg-btn-primary ml-auto">Yorumunu
+													Gönder</button>
+											</div>
+										</form>
+
+										<div class="row" id="comments">
+
+											<!-- Comment -->
+											<div class="comment">
+												<div class="comment-top">
+													<span class="comment-name">Berkay Erdinç</span>
+													<span class="comment-date">11 Ağustos 2021 - 18:05</span>
+												</div>
+												<p class="comment-text">
+													Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse quam repellat saepe?
+													Sapiente rem nihil iste. Voluptatem consequatur impedit sit, dicta illum rem tempore libero
+													praesentium vero accusamus ad ab cupiditate modi numquam velit adipisci quos provident neque
+													laborum!
+												</p>
+
+												<div class="comment-toolbar">
+													<button class="fg-btn fg-btn-primary" type="button" id="replyComment">Cevap yaz</button>
+													<div class="comment-vote">
+														<div class="comment-upvote">
+															<button class="fg-btn fg-btn-success" type="button">
+																Katılıyorum
+																<svg xmlns="http://www.w3.org/2000/svg" width="14.667" height="13.227"
+																	viewBox="0 0 14.667 13.227">
+																	<path fill="#fff"
+																		d="M.667,5.227h2v8h-2A.667.667,0,0,1,0,12.56V5.893a.667.667,0,0,1,.667-.667ZM4.2,4.365,8.462.1A.333.333,0,0,1,8.9.067l.569.427A1,1,0,0,1,9.835,1.54L9.067,4.56h4.267a1.333,1.333,0,0,1,1.333,1.333v1.4a1.333,1.333,0,0,1-.1.508L12.5,12.811a.667.667,0,0,1-.617.415H4.667A.667.667,0,0,1,4,12.56V4.836A.667.667,0,0,1,4.2,4.365Z" />
+																</svg>
+															</button>
+														</div>
+														<div class="comment-downvote">
+															<button class="fg-btn fg-btn-danger" type="button">
+																Katılmıyorum
+																<svg xmlns="http://www.w3.org/2000/svg" width="14.667" height="13.227"
+																	viewBox="0 0 14.667 13.227">
+																	<path fill="#fff"
+																		d="M.667-5.227h2v-8h-2a.667.667,0,0,0-.471.2.667.667,0,0,0-.2.471v6.667a.667.667,0,0,0,.2.471.667.667,0,0,0,.471.2ZM4.2-4.365,8.462-.1a.333.333,0,0,0,.212.1A.333.333,0,0,0,8.9-.067l.569-.427A1,1,0,0,0,9.81-.961a1,1,0,0,0,.026-.579L9.067-4.56h4.267a1.333,1.333,0,0,0,.943-.391,1.333,1.333,0,0,0,.391-.943v-1.4a1.333,1.333,0,0,0-.1-.508L12.5-12.811a.667.667,0,0,0-.245-.3.667.667,0,0,0-.372-.114H4.667a.667.667,0,0,0-.471.2.667.667,0,0,0-.2.471v7.724A.667.667,0,0,0,4.2-4.365Z"
+																		transform="translate(0 13.227)" />
+																</svg>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Comment Replying -->
+											<form class="comment-replying" id="sendReply">
+												<div class="comment-top">
+													<span class="comment-name">
+														<img src="assets/images/@finans-gundem/svg/reply.svg">
+														<small>Berkay Erdinç cevaplanıyor...</small>
+													</span>
+													<span class="comment-close"><img src="assets/images/@finans-gundem/svg/close.svg"></span>
+												</div>
+
+												<input type="name" class="fg-input" placeholder="Adınız Soyadınız">
+
+												<textarea class="fg-textarea" name="replying" id="replying" placeholder="Cevabınız"></textarea>
+
+												<div class="comment-toolbar">
+													<div class="emojis" id="commentEmoji" data-target="#replying">
+														<span class="emoji" data-id="0x1F601" title="Gülen yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-beaming-face.png">
+														</span>
+														<span class="emoji" data-id="0x1F60A" title="Gülümseyen yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-smiling-face.png">
+														</span>
+														<span class="emoji" data-id="0x1F609" title="Göz kırpan yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-winking-face.png">
+														</span>
+														<span class="emoji" data-id="0x1F60D" title="Gözleri kalpli yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-smiling-face-with-heart-eyes.png">
+														</span>
+														<span class="emoji" data-id="0x1F970" title="Kalpli yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-smiling-face-with-hearts.png">
+														</span>
+														<span class="emoji" data-id="0x1F618" title="Öpücük atan yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-face-blowing-a-kiss.png">
+														</span>
+														<span class="emoji" data-id="0x1F60B" title="Lezzetli">
+															<img src="assets/images/@finans-gundem/icons/emoji-face-savoring-food.png">
+														</span>
+														<span class="emoji" data-id="0x1F609" title="Göz kırpan yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-winking-face.png">
+														</span>
+														<span class="emoji" data-id="0x1F61C" title="Göz kırpan, dil çıkaran yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-winking-face-with-tongue.png">
+														</span>
+														<span class="emoji" data-id="0x1F928" title="Kaşını kaldıran yüz">
+															<img src="assets/images/@finans-gundem/icons/emoji-face-with-raised-eyebrow.png">
+														</span>
+													</div>
+
+													<button type="submit" id="submitReply" class="fg-btn fg-btn-primary ml-auto">Cevabı
+														Gönder</button>
+												</div>
+											</form>
+
+											<!-- Comment Reply -->
+											<div class="comment-reply">
+												<div class="comment-top">
+													<span class="comment-name">
+														<img src="assets/images/@finans-gundem/svg/reply.svg">
+														Fatih Berkay
+													</span>
+													<span class="comment-date">11 Ağustos 2021 - 18:05</span>
+												</div>
+												<p class="comment-text">
+													Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse quam repellat saepe?
+													Sapiente rem nihil iste. Voluptatem consequatur impedit sit, dicta illum rem tempore libero
+													praesentium vero accusamus ad ab cupiditate modi numquam velit adipisci quos provident neque
+													laborum!
+												</p>
+												<div class="comment-toolbar">
+													<div class="comment-vote">
+														<div class="comment-upvote">
+															<span class="text-success">50%</span>
+															<button class="fg-btn fg-btn-success" type="button">
+																Katılıyorum
+																<svg xmlns="http://www.w3.org/2000/svg" width="14.667" height="13.227"
+																	viewBox="0 0 14.667 13.227">
+																	<path fill="#fff"
+																		d="M.667,5.227h2v8h-2A.667.667,0,0,1,0,12.56V5.893a.667.667,0,0,1,.667-.667ZM4.2,4.365,8.462.1A.333.333,0,0,1,8.9.067l.569.427A1,1,0,0,1,9.835,1.54L9.067,4.56h4.267a1.333,1.333,0,0,1,1.333,1.333v1.4a1.333,1.333,0,0,1-.1.508L12.5,12.811a.667.667,0,0,1-.617.415H4.667A.667.667,0,0,1,4,12.56V4.836A.667.667,0,0,1,4.2,4.365Z" />
+																</svg>
+															</button>
+														</div>
+														<div class="comment-downvote">
+															<button class="fg-btn fg-btn-danger" type="button">
+																Katılmıyorum
+																<svg xmlns="http://www.w3.org/2000/svg" width="14.667" height="13.227"
+																	viewBox="0 0 14.667 13.227">
+																	<path fill="#fff"
+																		d="M.667-5.227h2v-8h-2a.667.667,0,0,0-.471.2.667.667,0,0,0-.2.471v6.667a.667.667,0,0,0,.2.471.667.667,0,0,0,.471.2ZM4.2-4.365,8.462-.1a.333.333,0,0,0,.212.1A.333.333,0,0,0,8.9-.067l.569-.427A1,1,0,0,0,9.81-.961a1,1,0,0,0,.026-.579L9.067-4.56h4.267a1.333,1.333,0,0,0,.943-.391,1.333,1.333,0,0,0,.391-.943v-1.4a1.333,1.333,0,0,0-.1-.508L12.5-12.811a.667.667,0,0,0-.245-.3.667.667,0,0,0-.372-.114H4.667a.667.667,0,0,0-.471.2.667.667,0,0,0-.2.471v7.724A.667.667,0,0,0,4.2-4.365Z"
+																		transform="translate(0 13.227)" />
+																</svg>
+															</button>
+															<span class="text-danger">50%</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+							</section>
+							<!-- End Comments -->
+
+							<!-- Start Might Interest -->
+							<section>
+								<div class="section-header section-header-lg section-header-dark-blue section-header-tapped">
+									<div class="section-title">
+										<h4>BU HABERLER DE İLGİNİZİ ÇEKEBİLİR</h4>
+									</div>
+								</div>
+
+								<div class="section-card">
+									<div class="row">
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															4
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															0
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															0
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															4
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															4
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															0
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															0
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="col-md-6">
+											<a href="#" class="hz-sm-card"
+												title="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<img class="hz-sm-card-img" src="https://picsum.photos/500/500"
+													alt="Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka oldu">
+												<div>
+													<h5 class="card-item-title-16">Garanti BBVA, BM çevre birliğindeki ilk ve tek Türk banka
+														oldu
+													</h5>
+													<div>
+														<span class="comments-tag">
+															<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M13.167 14.167L10.834 17.084L8.5 14.167H4.167C3.94607 14.167 3.7342 14.0792 3.57798 13.923C3.42176 13.7668 3.334 13.5549 3.334 13.334V4.25C3.334 4.14061 3.35555 4.03229 3.39741 3.93122C3.43927 3.83016 3.50063 3.73833 3.57798 3.66098C3.65533 3.58363 3.74716 3.52227 3.84823 3.48041C3.94929 3.43855 4.05761 3.417 4.167 3.417H17.5C17.6094 3.417 17.7177 3.43855 17.8188 3.48041C17.9198 3.52227 18.0117 3.58363 18.089 3.66098C18.1664 3.73833 18.2277 3.83016 18.2696 3.93122C18.3115 4.03229 18.333 4.14061 18.333 4.25V13.333C18.333 13.5539 18.2452 13.7658 18.089 13.922C17.9328 14.0782 17.7209 14.166 17.5 14.166L13.167 14.167ZM0.833001 0H15V1.667H1.667V10.834H6.00295e-07V0.834C-0.000130823 0.724525 0.0213184 0.616097 0.0631217 0.514918C0.104925 0.413738 0.166263 0.321791 0.243627 0.244334C0.320991 0.166876 0.412865 0.105429 0.513994 0.0635039C0.615124 0.0215792 0.723525 -7.88851e-08 0.833001 0Z" />
+															</svg>
+															4
+														</span>
+														<small class="elapsed">24 dakika önce</small>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+								</div>
+							</section>
+							<!-- End Might Interest -->
+
+						</section>
+						<!-- End Section With Aside -->
+
+						<!-- Start Section Aside -->
+						<aside class="col-lg-3">
+
+							<!-- Start Side Ad -->
+							<div class="ad">
+								<img src="assets/images/@finans-gundem/ad-square.png">
+							</div>
+							<!-- End Side Ad -->
+
+							<!-- Start Side Card Slider -->
+							<div class="side-card side-card-w-slider">
+								<div class="side-card-top">
+									<h5 class="side-card-heading">Finans Hattı</h5>
+									<a href="#" class="fg-btn fg-btn-text fg-btn-arrow">
+										Tümü
+										<img src="assets/images/@finans-gundem/svg/angle-right-light.svg">
+									</a>
+								</div>
+
+								<div class="side-card-slider">
+									<div class="swiper-wrapper">
+
+										<div class="side-card-slide swiper-slide">
+											<div class="side-card-slide-img">
+												<img src="https://picsum.photos/500/500"
+													alt="Hisseler düşerken yatırımcılar türev piyasasına yöneliyor.">
+											</div>
+											<a href="#" class="category-tag">Gündem</a>
+											<h5 class="side-card-slide-title">
+												<a href="#" title="Hisseler düşerken yatırımcılar türev piyasasına yöneliyor.">
+													Hisseler düşerken yatırımcılar türev piyasasına yöneliyor.
+												</a>
+											</h5>
+											<small class="elapsed">24 dakika önce</small>
+										</div>
+										<div class="side-card-slide swiper-slide">
+											<div class="side-card-slide-img">
+												<img src="https://picsum.photos/500/500" alt="İkinci">
+											</div>
+											<a href="#" class="category-tag">Finans</a>
+											<h5 class="side-card-slide-title">
+												<a href="#" title="İkinci">İkinci</a>
+											</h5>
+											<small class="elapsed">24 dakika önce</small>
+										</div>
+
+									</div>
+
+									<div class="side-card-slider-nav">
+										<div class="swiper-pagination"></div>
+									</div>
+
+								</div>
+							</div>
+							<!-- End Side Card Slider -->
+
+							<!-- Start Side Card Social -->
+							<div class="side-card side-card-social">
+								<div class="side-card-top">
+									<h5 class="side-card-heading">Sosyal Medya'da Biz</h5>
+								</div>
+								<div class="side-card-items">
+									<img src="assets/images/@finans-gundem/modul.png" alt="MODÜL">
+								</div>
+							</div>
+							<!-- End Side Card Social -->
+
+							<!-- Start Side Card -->
+							<div class="side-card">
+								<div class="side-card-top">
+									<h5 class="side-card-heading">BASIN TOPLANTISI ETKİNLİK &amp; KONFERANS</h5>
+								</div>
+
+								<div class="side-card-items">
+									<a href="#" class="side-card-activity" title="Basın Daveti">
+										<h5 class="card-item-title-18">Basın Daveti</h5>
+										<h6 class="card-item-title-14">Türkiye Kurumsal Yatırımcı Yöneticileri Derneği</h6>
+										<p class="activity-date">31 Ağustos 2021 - 09:30</p>
+										<p class="side-card-activity-desc">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Est animi hic obcaecati sunt commodi
+											blanditiis temporibus delectus aspernatur inventore. Quae.
+										</p>
+									</a>
+
+									<a href="#" class="fg-btn fg-btn-soft fg-btn-arrow">
+										Tümünü Görüntüle
+										<img src="assets/images/@finans-gundem/svg/angle-right-primary.svg">
+									</a>
+								</div>
+							</div>
+							<!-- End Side Card -->
+
+							<!-- Start Side Ad -->
+							<div class="ad">
+								<img src="assets/images/@finans-gundem/ad-square.png">
+							</div>
+							<!-- End Side Ad -->
+
+						</aside>
+						<!-- End Section Aside -->
+
+					</div>
+				</section>
+
+				<!--=====================================
+													  	END FG HOME CONTENT
+				===================================== -->
+
+			</div>
+
+			</div><!-- .content-wrap -->
+		</section><!-- #content end -->
+
+	</main><!-- #wrapper end -->
+
+	<!-- Start Footer -->
+	<footer id="tg-footer">
+		<div class="container">
+
+			<!-- Start Footer Mid Content -->
+			<div id="tg-footer-content">
+				<div class="container">
+					<div class="row">
+
+						<div id="tg-for-all-devices-mobile">
+							<img height="170" src="assets/images/@finans-gundem/devices.png" alt="Tüm cihazlarda" draggable="false">
+
+							<div class="tg-app-links">
+								<a href="#" target="_blank" class="tg-app-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+										<path
+											d="M9.173,6.372c-.876,0-2.232-1-3.66-.96A5.4,5.4,0,0,0,.929,8.2c-1.956,3.4-.5,8.412,1.4,11.172.936,1.344,2.04,2.856,3.5,2.808,1.4-.06,1.932-.912,3.636-.912s2.172.912,3.66.876c1.512-.024,2.472-1.368,3.4-2.724a12.06,12.06,0,0,0,1.536-3.156,4.9,4.9,0,0,1-2.976-4.488,4.978,4.978,0,0,1,2.4-4.212,5.2,5.2,0,0,0-4.056-2.2c-1.848-.144-3.4,1.008-4.26,1.008Zm3.12-2.832A4.851,4.851,0,0,0,13.449,0a4.99,4.99,0,0,0-3.264,1.68A4.64,4.64,0,0,0,9.009,5.112,4.137,4.137,0,0,0,12.293,3.54Z"
+											transform="translate(2.451 0.85)" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										App Store
+									</div>
+								</a>
+
+								<a href="#" target="_blank" class="tg-app-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+										<path
+											d="M.609,0,10.792,10.186.61,20.372a1,1,0,0,1-.61-.92V.92A1,1,0,0,1,.609,0ZM11.5,10.893l2.3,2.3L2.864,19.528Zm3.2-3.2,2.8,1.628a1,1,0,0,1,0,1.73l-2.8,1.626-2.494-2.491ZM2.864.844,13.8,7.176l-2.3,2.3Z"
+											transform="translate(3 1.814)" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										Play Store
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="tg-footer-item col-lg-4">
+							<div class="tg-footer-logo-wrap">
+								<a href="/">
+									<img src="assets/images/@finans-gundem/logo-2.png" alt="Otomobil Sayfası" draggable="false">
+								</a>
+								<p>Tüm hakları <a href="#" target="_blank">Gündem Medya Grubu</a>'na aittir.</p>
+							</div>
+						</div>
+
+						<div id="tg-for-all-devices" class="col-lg-4">
+							<img height="170" src="assets/images/@finans-gundem/devices.png" alt="Tüm cihazlarda" draggable="false">
+						</div>
+
+						<div class="tg-footer-item col-lg-4">
+							<div class="tg-app-links">
+								<a href="#" target="_blank" class="tg-app-link" title="App Store">
+									<svg xmlns="http://www.w3.org/2000/svg" width="18.061" height="22.177" viewBox="0 0 18.061 22.177">
+										<path fill="#ce171f"
+											d="M9.173,6.372c-.876,0-2.232-1-3.66-.96A5.4,5.4,0,0,0,.929,8.2c-1.956,3.4-.5,8.412,1.4,11.172.936,1.344,2.04,2.856,3.5,2.808,1.4-.06,1.932-.912,3.636-.912s2.172.912,3.66.876c1.512-.024,2.472-1.368,3.4-2.724a12.06,12.06,0,0,0,1.536-3.156,4.9,4.9,0,0,1-2.976-4.488,4.978,4.978,0,0,1,2.4-4.212,5.2,5.2,0,0,0-4.056-2.2c-1.848-.144-3.4,1.008-4.26,1.008Zm3.12-2.832A4.851,4.851,0,0,0,13.449,0a4.99,4.99,0,0,0-3.264,1.68A4.64,4.64,0,0,0,9.009,5.112,4.137,4.137,0,0,0,12.293,3.54Z" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										App Store
+									</div>
+								</a>
+
+								<a href="#" target="_blank" class="tg-app-link" title="Google Play Store">
+									<svg xmlns="http://www.w3.org/2000/svg" width="17.998" height="20.372" viewBox="0 0 17.998 20.372">
+										<path fill="#ce171f"
+											d="M.609,0,10.792,10.186.61,20.372a1,1,0,0,1-.61-.92V.92A1,1,0,0,1,.609,0ZM11.5,10.893l2.3,2.3L2.864,19.528Zm3.2-3.2,2.8,1.628a1,1,0,0,1,0,1.73l-2.8,1.626-2.494-2.491ZM2.864.844,13.8,7.176l-2.3,2.3Z" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										Play Store
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- End Footer Mid Content -->
+
+			<div class="abbr-links">
+				<div class="container">
+					<div class="row">
+
+						<a href="#" class="abbr-link">
+							<span style="background-color: #1E3849; color: #fff">FG</span>
+							Finans Gündem
+						</a>
+						<a href="#" class="abbr-link">
+							<span style="background-color: #C24742; color: #fff;">OS</span>
+							Otomobil Sayfası
+						</a>
+						<a href="#" class="abbr-link">
+							<span style="background-color: #000; color: #fff;">TG</span>
+							Teknoloji Gündem
+						</a>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Start Footer Categories -->
+			<div id="footer-categories">
+				<h5 class="footer-cat-title">Kategoriler</h5>
+				<div class="row p-0">
+					<div class="col-lg-2">
+						<a href="#" title="Araştırma">Araştırma</a>
+						<a href="#" title="Emlak">Emlak</a>
+						<a href="#" title="Otomotiv">Otomotiv</a>
+						<a href="#" title="Sigorta - BES ve Hayat">Sigorta - BES ve Hayat</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="İlginç Bankacı Hikayeleri">İlginç Bankacı Hikayeleri</a>
+						<a href="#" title="Kripto Paralar">Kripto Paralar</a>
+						<a href="#" title="Para Komedi">Para Komedi</a>
+						<a href="#" title="Teknoloji">Teknoloji</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="Gündem">Gündem</a>
+						<a href="#" title="Bankacılık">Bankacılık</a>
+						<a href="#" title="Finans Kulis">Finans Kulis</a>
+						<a href="#" title="Leasing - Faktoring">Leasing - Faktoring</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="Makro Ekonomi">Makro Ekonomi</a>
+						<a href="#" title="Para Piyasa">Para Piyasa</a>
+						<a href="#" title="Röportajlar">Röportajlar</a>
+						<a href="#" title="Spor">Spor</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="Yaşam - Magazin">Yaşam - Magazin</a>
+						<a href="#" title="Yazarlar">Yazarlar</a>
+						<a href="#" title="Ödeme Sistemleri">Ödeme Sistemleri</a>
+						<a href="#" title="Kazandıran Sohbetler">Kazandıran Sohbetler</a>
+					</div>
+				</div>
+			</div>
+			<!-- End Footer Categories -->
+
+			<!-- Start Footer Desc -->
+			<div class="tg-footer-desc">
+				<p>
+					Finansgundem.com’da yer alan bilgi, yorum ve tavsiyeleri yatırım danışmanlığı kapsamında değildir. Yatırım
+					danışmanlığı hizmeti; aracı kurumlar, portföy yönetim şirketleri, mevduat kabul etmeyen bankalar ile müşteri
+					arasında imzalanacak yatırım danışmanlığı sözleşmesi çerçevesinde sunulmaktadır. Burada yer alan yorum ve
+					tavsiyeler, yorum ve tavsiyede bulunanların kişisel görüşlerine dayanmaktadır. Bu görüşler mali durumunuz ile
+					risk ve getiri tercihlerinize uygun olmayabilir. Bu nedenle, sadece burada yer alan bilgilere dayanılarak
+					yatırım kararı verilmesi beklentilerinize uygun sonuçlar doğurmayabilir. Burada yer alan bilgiler, güvenilir
+					olduğuna inanılan halka açık kaynaklardan elde edilmiş olup bu kaynaklardaki bilgilerin hata ve eksikliğinden
+					ve ticari amaçlı işlemlerde kullanılmasından doğabilecek zararlardan www.finansgundem.com ve yöneticileri
+					hiçbir şekilde sorumluluk kabul etmemektedir. Burada yer alan görüş ve düşüncelerin <a
+						href="https://www.finansgundem.com">www.finansgundem.com</a> ve
+					yönetimi için hiçbir bağlayıcılığı yoktur.
+				</p>
+				<p>
+					BİST isim ve logosu <span>“koruma marka belgesi”</span> altında korunmakta olup izinsiz kullanılamaz, iktibas
+					edilemez, değiştirilemez. BİST ismi altında açıklanan tüm bilgilerin telif hakları tamamen BİST’e ait olup,
+					tekrar yayınlanamaz.
+				</p>
+			</div>
+			<!-- End Footer Desc -->
+
+			<!-- Start Footer Bottom -->
+			<div id="tg-footer-bottom">
+				<div class="container">
+
+					<div class="tg-footer-bottom-item">
+						<p class="tg-footer-copy">&copy; 2021 <a href="/">FinansGündem.com</a>. <span>Tüm hakları saklıdır.</span>
+						</p>
+					</div>
+
+					<div class="tg-footer-bottom-item">
+						<div class="tg-footer-bottom-links">
+							<a href="#" class="tg-footer-bottom-link">RSS</a>
+							<a href="#" class="tg-footer-bottom-link">Künye</a>
+							<a href="#" class="tg-footer-bottom-link">İletişim</a>
+							<a href="#" class="tg-footer-bottom-link">Reklam</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- End Footer Bottom -->
+
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- Go To Top
+	============================================= -->
+	<!-- <div id="gotoTop" class="icon-angle-up"></div> -->
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+
+	<!-- Date & Time Picker JS -->
+	<script src="assets/js/components/moment.js"></script>
+	<script src="assets/js/components/timepicker.js"></script>
+	<script src="assets/js/components/datepicker.js"></script>
+
+	<!-- Include Date Range Picker -->
+	<script src="assets/js/components/daterangepicker.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="assets/js/functions.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

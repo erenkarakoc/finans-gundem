@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "Kanada Doları",
+    "prevPrice": "8.6098",
+    "lastPrice": "7.6098"
+  },
+  {
+    "symbol": "Euro",
+    "prevPrice": "8.3064",
+    "lastPrice": "9.3064"
+  },
+  {
+    "symbol": "Altın Gram",
+    "prevPrice": "8.3064",
+    "lastPrice": "8.3071"
+  },
+  {
+    "symbol": "Altın Ons",
+    "prevPrice": "8.3064",
+    "lastPrice": "8.1242"
+  },
+  {
+    "symbol": "Sterlin",
+    "prevPrice": "8.2464",
+    "lastPrice": "8.3231"
+  },
+  {
+    "symbol": "Bist100",
+    "prevPrice": "8.3042",
+    "lastPrice": "8.1567"
+  },
+  {
+    "symbol": "Bitcoin",
+    "prevPrice": "8.3077",
+    "lastPrice": "8.4721"
+  },
+  {
+    "symbol": "Amerikan Doları",
+    "prevPrice": "8.3064",
+    "lastPrice": "8.2000"
+  }
+]

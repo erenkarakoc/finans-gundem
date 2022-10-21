@@ -1,0 +1,55 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Canvas
+    Theme URI: http://themes.semicolonweb.com/html/canvas
+    Description: The Multi-Purpose Template
+    Author: SemiColonWeb
+    Author URI: http://themeforest.net/user/semicolonweb
+    Version: 6.5.5
+
+    SASS Stylesheet
+
+-----------------------------------------------------------------------------------*/
+
+/* Bootstrap */
+@import url("assets/css/imports/bootstrap.css");
+
+/* Core CSS */
+@import url("assets/css/imports/layouts.css");
+@import url("assets/css/imports/typography.css");
+@import url("assets/css/imports/utilities.css");
+
+
+/* Content Blocks */
+@import url("assets/css/imports/topbar.css");
+@import url("assets/css/imports/header.css");
+@import url("assets/css/imports/sliders.css");
+@import url("assets/css/imports/pagetitle.css");
+@import url("assets/css/imports/content.css");
+@import url("assets/css/imports/portfolio.css");
+@import url("assets/css/imports/blog.css");
+@import url("assets/css/imports/shop.css");
+@import url("assets/css/imports/events.css");
+
+
+/* Shortcodes */
+@import url("assets/css/imports/shortcodes.css");
+
+/* Forms */
+@import url("assets/css/imports/forms.css");
+
+/* Footer */
+@import url("assets/css/imports/footer.css");
+
+
+/* Widgets */
+@import url("assets/css/imports/widgets.css");
+
+/* Paginations */
+@import url("assets/css/imports/paginations.css");
+
+/* Extras */
+@import url("assets/css/imports/extras.css");
+
+/* Page Loaders */
+@import url("assets/css/imports/page-loaders.css");

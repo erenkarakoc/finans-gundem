@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="tr">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="author" content="Otomobil Sayfası" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
+		rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/swiper.css" type="text/css">
+
+	<!-- Date & Time Picker CSS -->
+	<link rel="stylesheet" href="assets/css/components/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/components/timepicker.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/components/daterangepicker.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/custom-responsive.css" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Finans Gündem</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Loader -->
+	<div id="tgLoader">
+		<img src="assets/images/@finans-gundem/logo.png" alt="Yükleniyor..." draggable="false">
+	</div>
+
+	<!-- Start Side Bar -->
+	<div id="tgSideBar">
+		<div class="tg-sidebar-top">
+			<button type="button" class="fg-btn-square .fg-btn-outline tg-toggle-sidebar">
+				<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill="#58667E"
+						d="M1.00005 2.00015L2.41426 0.585938L8.91432 7.086L15 1.00027L16.4143 2.41449L10.3285 8.50021L16.5564 14.7281L15.1422 16.1423L8.91432 9.91442L2.27212 16.5566L0.85791 15.1424L7.50011 8.50021L1.00005 2.00015Z" />
+				</svg>
+			</button>
+		</div>
+
+		<!-- Side Bar Navigation -->
+		<nav class="tg-nav"></nav>
+
+		<div class="tg-app-links">
+			<a href="#" target="_blank" class="tg-app-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+					<path id="Path_2545" data-name="Path 2545"
+						d="M9.173,6.372c-.876,0-2.232-1-3.66-.96A5.4,5.4,0,0,0,.929,8.2c-1.956,3.4-.5,8.412,1.4,11.172.936,1.344,2.04,2.856,3.5,2.808,1.4-.06,1.932-.912,3.636-.912s2.172.912,3.66.876c1.512-.024,2.472-1.368,3.4-2.724a12.06,12.06,0,0,0,1.536-3.156,4.9,4.9,0,0,1-2.976-4.488,4.978,4.978,0,0,1,2.4-4.212,5.2,5.2,0,0,0-4.056-2.2c-1.848-.144-3.4,1.008-4.26,1.008Zm3.12-2.832A4.851,4.851,0,0,0,13.449,0a4.99,4.99,0,0,0-3.264,1.68A4.64,4.64,0,0,0,9.009,5.112,4.137,4.137,0,0,0,12.293,3.54Z"
+						transform="translate(2.451 0.85)" />
+				</svg>
+				<div>
+					<span>Uygulamayı İndir</span>
+					App Store
+				</div>
+			</a>
+
+			<a href="#" target="_blank" class="tg-app-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+					<path id="Path_2653" data-name="Path 2653"
+						d="M.609,0,10.792,10.186.61,20.372a1,1,0,0,1-.61-.92V.92A1,1,0,0,1,.609,0ZM11.5,10.893l2.3,2.3L2.864,19.528Zm3.2-3.2,2.8,1.628a1,1,0,0,1,0,1.73l-2.8,1.626-2.494-2.491ZM2.864.844,13.8,7.176l-2.3,2.3Z"
+						transform="translate(3 1.814)" />
+				</svg>
+				<div>
+					<span>Uygulamayı İndir</span>
+					Play Store
+				</div>
+			</a>
+		</div>
+
+		<div class="tg-footer-logo-wrap">
+			<a href="/">
+				<img src="assets/images/@finans-gundem/logo.png" alt="Otomobil Sayfası" draggable="false">
+			</a>
+			<p>Tüm hakları <a href="#" target="_blank">Gündem Medya Grubu</a>'na aittir.</p>
+		</div>
+
+		<div class="abbr-links">
+			<a href="#" class="abbr-link">
+				<span style="background-color: #1E3849; color: #fff">FG</span>
+				Finans Gündem
+			</a>
+			<a href="#" class="abbr-link">
+				<span style="background-color: #000; color: #fff;">OG</span>
+				Otomobil Sayfası
+			</a>
+			<a href="#" class="abbr-link">
+				<span style="background-color: #F8D349; color: #171924;">BG</span>
+				Borsa Gündem
+			</a>
+		</div>
+
+		<div class="tg-sidebar-bottom">
+			<div class="tg-footer-bottom-item">
+				<div class="tg-footer-bottom-links">
+					<a href="#" class="tg-footer-bottom-link">RSS</a>
+					<a href="#" class="tg-footer-bottom-link">Künye</a>
+					<a href="#" class="tg-footer-bottom-link">İletişim</a>
+					<a href="#" class="tg-footer-bottom-link">Reklam</a>
+				</div>
+			</div>
+			<div class="tg-footer-bottom-item">
+				<p class="tg-footer-copy">&copy; 2021 <a href="/">TeknolojiGündem.com</a>.<br><br><span>Tüm hakları
+						saklıdır.</span></p>
+			</div>
+		</div>
+	</div>
+	<!-- End Side Bar -->
+
+	<!-- Start Finans Gündem Borsa -->
+	<div id="fgBorsa"></div>
+	<!-- End Finans Gündem Borsa -->
+
+	<!-- Start Header Top -->
+	<div id="tgHeaderTop">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-6 col-lg-5 abbr-links">
+					<div id="headerTopDate">
+						<svg xmlns="http://www.w3.org/2000/svg" width="13.333" height="13.333" viewBox="0 0 13.333 13.333">
+							<path id="Path_429" data-name="Path 429"
+								d="M10,1.333h2.667A.667.667,0,0,1,13.333,2V12.667a.667.667,0,0,1-.667.667h-12A.667.667,0,0,1,0,12.667V2a.667.667,0,0,1,.667-.667H3.333V0H4.667V1.333h4V0H10Zm2,4V2.667H10V4H8.667V2.667h-4V4H3.333V2.667h-2V5.333Zm0,1.333H1.333V12H12ZM2.667,8H6v2.667H2.667Z"
+								fill="#58667e" />
+						</svg>
+						<span>14 Ağustos 2022</span>
+					</div>
+
+					<a href="#" class="abbr-link">
+						<span style="background-color: rgba(194, 71, 66, 0.1); color: #c24742">OS</span>
+						Otomobil Sayfası
+					</a>
+					<a href="#" class="abbr-link">
+						<span style="background-color: rgba(0, 0, 0, 0.2); color: #000000;">TG</span>
+						Teknoloji Gündem
+					</a>
+					<a href="#" class="abbr-link">
+						<span style="background-color: rgba(248, 210, 73, 0.5); color: #171924;">BG</span>
+						Borsa Gündem
+					</a>
+				</div>
+
+				<div class="col-3 col-lg-3 ml-auto">
+					<div class="tgHeaderTop-search-wrap">
+						<input id="tgHeaderTop-search" type="search" placeholder="site içerisinde ara..." autocomplete="off">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Header Top -->
+
+	<!-- Start Header -->
+	<header id="tgHeader">
+
+		<div id="tgHeader-logo-wrap">
+			<div class="container">
+				<a href="/">
+					<img src="assets/images/@finans-gundem/logo.png" alt="Otomobil Sayfası" draggable="false">
+				</a>
+
+				<div id="headerBanner">
+					<a href="#" target="_blank" class="ad">
+						<img src="assets/images/@finans-gundem/ad.png">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="tg-mobile-header">
+			<div class="tg-mobile-header-wrap"><button type="button" class="fg-btn-square fg-btn-outlined tg-toggle-sidebar">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16">
+						<path fill="#58667e" d="M0,0H18V2H0ZM0,7H12V9H0Zm0,7H18v2H0Z" />
+					</svg>
+				</button>
+
+				<a href="#" class="tg-mobile-logo">
+					<img src="assets/images/@finans-gundem/logo.png" alt="Otomobil Sayfası">
+				</a>
+
+				<button type="button" class="fg-btn-square fg-btn-outlined" id="TGToggleSearch">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20.314" height="20.314" viewBox="0 0 20.314 20.314">
+						<path fill="#58667e"
+							d="M9,0A9,9,0,1,1,2.636,2.636,9,9,0,0,1,9,0ZM9,16a7,7,0,1,0-4.95-2.05A7,7,0,0,0,9,16Zm8.485.071L20.314,18.9,18.9,20.314l-2.828-2.829,1.414-1.414Z" />
+					</svg>
+				</button>
+			</div>
+
+			<input type="search" id="tgMobileSearch" class="fg-input" placeholder="Site içerisinde arama yap...">
+		</div>
+
+		<nav class="tg-nav">
+			<a href="index.html" class="tg-nav-item">Gündem</a>
+			<a href="#" class="tg-nav-item">Bankacılık</a>
+			<a href="#" class="tg-nav-item">Kripto Paralar</a>
+			<a href="#" class="tg-nav-item">Finans-Kulis</a>
+			<a href="#" class="tg-nav-item">Sigorta-Bes</a>
+			<a href="#" class="tg-nav-item">Emlak</a>
+			<a href="#" class="tg-nav-item">Para-Piyasa</a>
+			<a href="#" class="tg-nav-item">Banka Dışı Finans</a>
+			<a href="yazarlar.html" class="tg-nav-item">Yazarlar</a>
+
+			<div class="tg-nav-sponsor">
+				<a href="#" target="_blank" title="GCM Yatırım">
+					<img height="39px" src="assets/images/@finans-gundem/gcm-yatirim.png" alt="GCM Yatırım">
+				</a>
+			</div>
+		</nav>
+
+	</header>
+	<!-- End Header -->
+
+	<!-- Document Wrapper
+	============================================= -->
+	<main id="wrapper" class="clearfix">
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+
+				<!--=====================================
+													  START FG HOME CONTENT
+				===================================== -->
+
+				<section class="container">
+					<div class="row">
+
+						<!-- Start Section With Aside -->
+						<section class="col-lg-9">
+
+							<!-- Start Breadcrumbs -->
+							<section>
+								<ul class="fg-breadcrumbs">
+									<li>
+										<a href="/">Ana Sayfa</a>
+									</li>
+									<li class="active">
+										<a>
+											Etkinlikler
+										</a>
+									</li>
+								</ul>
+							</section>
+							<!-- End Breadcrumbs -->
+
+							<section class="cards-container">
+								<div class="section-header section-header-hg">
+									<div class="section-title">
+										<h3>Güncel Etkinlikler</h3>
+									</div>
+								</div>
+
+								<div class="activity-card">
+									<h4 class="card-item-title-18">Basın Daveti</h4>
+									<h6 class="card-item-subtitle-14">Türkiye Kurumsal Yatırımcı Yöneticileri Derneği</h6>
+									<div class="category-tag">31 AĞUSTOS 2021 - 09:30</div>
+									<p>
+										Türkiye Kurumsal Yatırımcı Yöneticileri Derneği (TKYD), 2019 yılında Emeklilik ve Yatırım Fonları
+										performanslarını ve fonlara artan ilgiyi açıklıyor. 06 Şubat 2020, Perşembe günü gerçekleştirilecek
+										basın toplantısında Bireysel Emeklilik Sistemi (BES) ve Yatırım Fonlarında 2019 yılında yaşanan
+										pozitif gelişmeler paylaşılırken aynı zamanda 2019 yılında köklü değişikliklerin ayak seslerinin
+										duyulduğu BES ve Otomatik Katılım Sistemi (OKS) konuları değerlendirilecek. Toplantı TKYD Başkanı
+										Mustafa Selim Yazıcı ve Yönetim Kurulu üyelerinin ev sahipliğinde gerçekleştirilecek.
+									</p>
+								</div>
+
+								<div class="activity-card">
+									<h4 class="card-item-title-18">Etkinlik</h4>
+									<h6 class="card-item-subtitle-14">Girişimcilik Vakfı - NEXT 2020</h6>
+									<div class="category-tag">31 AĞUSTOS 2021 - 09:30</div>
+									<p>
+										MEF Üniversitesi -<br>
+										Amerikan Büyükelçiliği desteğiyle, Türkiye Girişimcilik Vakfı ve Mef Üniversitesi ortaklığında
+										eğitim teknolojileri alanında farkındalık yaratmak, eğitim alanındaki problemlere inovatif çözümler
+										üretmek amacıyla NEXT 2020 projesini hayata geçirmeye Prof. Dr. Erhan Erkut'un ilham konuşması ile
+										başlıyoruz.
+									</p>
+								</div>
+
+								<div class="activity-card">
+									<h4 class="card-item-title-18">Konferans</h4>
+									<h6 class="card-item-subtitle-14">Yeni Nesil İş Analizi</h6>
+									<div class="category-tag">31 AĞUSTOS 2021 - 09:30</div>
+									<p>
+										Sheraton Grand Istanbul Atasehir -<br>
+										Uluslararası BAistanbul Konferansı, Güney Doğu Avrupa ve Orta Doğu’nun ilk ve en büyük uluslararası
+										iş analizi konferanslarını gerçekleştiren BA-Works tarafından, 3 Aralık 2019 tarihinde İstanbul’da
+										düzenleniyor. Uluslararası İş Analizi Enstitüsü IIBA’nın destek verdiği ve bu yıl 5’incisi
+										gerçekleşen konferans, “Yeni Nesil İş Analizi” sloganıyla teknoloji profesyonelleri ve farklı
+										sektörlerden üst düzey yöneticileri bir araya getirecek. Global iş analizi ekosistemine mentor ve
+										fikir lideri olarak destek veren IIBA Başkanı ve CEO’su Ken Fulmer, goCX Yönetici Ortağı Michel
+										Stevens gibi isimlerin konuşmacı olarak katılacağı platform, iş analizi evreninin gündemini ele
+										alırken bir yandan da sıra dışı içeriğiyle dikkat çekiyor.
+									</p>
+								</div>
+
+								<div class="activity-card">
+									<h4 class="card-item-title-18">Basın Daveti</h4>
+									<h6 class="card-item-subtitle-14">Türkiye Kurumsal Yatırımcı Yöneticileri Derneği</h6>
+									<div class="category-tag">31 AĞUSTOS 2021 - 09:30</div>
+									<p>
+										Türkiye Kurumsal Yatırımcı Yöneticileri Derneği (TKYD), 2019 yılında Emeklilik ve Yatırım Fonları
+										performanslarını ve fonlara artan ilgiyi açıklıyor. 06 Şubat 2020, Perşembe günü gerçekleştirilecek
+										basın toplantısında Bireysel Emeklilik Sistemi (BES) ve Yatırım Fonlarında 2019 yılında yaşanan
+										pozitif gelişmeler paylaşılırken aynı zamanda 2019 yılında köklü değişikliklerin ayak seslerinin
+										duyulduğu BES ve Otomatik Katılım Sistemi (OKS) konuları değerlendirilecek. Toplantı TKYD Başkanı
+										Mustafa Selim Yazıcı ve Yönetim Kurulu üyelerinin ev sahipliğinde gerçekleştirilecek.
+									</p>
+								</div>
+
+								<div class="activity-card">
+									<h4 class="card-item-title-18">Etkinlik</h4>
+									<h6 class="card-item-subtitle-14">Girişimcilik Vakfı - NEXT 2020</h6>
+									<div class="category-tag">31 AĞUSTOS 2021 - 09:30</div>
+									<p>
+										MEF Üniversitesi -<br>
+										Amerikan Büyükelçiliği desteğiyle, Türkiye Girişimcilik Vakfı ve Mef Üniversitesi ortaklığında
+										eğitim teknolojileri alanında farkındalık yaratmak, eğitim alanındaki problemlere inovatif çözümler
+										üretmek amacıyla NEXT 2020 projesini hayata geçirmeye Prof. Dr. Erhan Erkut'un ilham konuşması ile
+										başlıyoruz.
+									</p>
+								</div>
+
+								<div class="activity-card">
+									<h4 class="card-item-title-18">Konferans</h4>
+									<h6 class="card-item-subtitle-14">Yeni Nesil İş Analizi</h6>
+									<div class="category-tag">31 AĞUSTOS 2021 - 09:30</div>
+									<p>
+										Sheraton Grand Istanbul Atasehir -<br>
+										Uluslararası BAistanbul Konferansı, Güney Doğu Avrupa ve Orta Doğu’nun ilk ve en büyük uluslararası
+										iş analizi konferanslarını gerçekleştiren BA-Works tarafından, 3 Aralık 2019 tarihinde İstanbul’da
+										düzenleniyor. Uluslararası İş Analizi Enstitüsü IIBA’nın destek verdiği ve bu yıl 5’incisi
+										gerçekleşen konferans, “Yeni Nesil İş Analizi” sloganıyla teknoloji profesyonelleri ve farklı
+										sektörlerden üst düzey yöneticileri bir araya getirecek. Global iş analizi ekosistemine mentor ve
+										fikir lideri olarak destek veren IIBA Başkanı ve CEO’su Ken Fulmer, goCX Yönetici Ortağı Michel
+										Stevens gibi isimlerin konuşmacı olarak katılacağı platform, iş analizi evreninin gündemini ele
+										alırken bir yandan da sıra dışı içeriğiyle dikkat çekiyor.
+									</p>
+								</div>
+
+							</section>
+
+						</section>
+						<!-- End Section With Aside -->
+
+						<!-- Start Section Aside -->
+						<aside class="col-lg-3">
+
+							<!-- Start Side Ad -->
+							<div class="ad">
+								<img src="assets/images/@finans-gundem/ad-square.png">
+							</div>
+							<!-- End Side Ad -->
+
+							<!-- Start Side Card Slider -->
+							<div class="side-card side-card-w-slider">
+								<div class="side-card-top">
+									<h5 class="side-card-heading">Finans Hattı</h5>
+									<a href="#" class="fg-btn fg-btn-text fg-btn-arrow">
+										Tümü
+										<img src="assets/images/@finans-gundem/svg/angle-right-light.svg">
+									</a>
+								</div>
+
+								<div class="side-card-slider">
+									<div class="swiper-wrapper">
+
+										<div class="side-card-slide swiper-slide">
+											<div class="side-card-slide-img">
+												<img src="https://picsum.photos/500/500"
+													alt="Hisseler düşerken yatırımcılar türev piyasasına yöneliyor.">
+											</div>
+											<a href="#" class="category-tag">Gündem</a>
+											<h5 class="side-card-slide-title">
+												<a href="#" title="Hisseler düşerken yatırımcılar türev piyasasına yöneliyor.">
+													Hisseler düşerken yatırımcılar türev piyasasına yöneliyor.
+												</a>
+											</h5>
+											<small class="elapsed">24 dakika önce</small>
+										</div>
+										<div class="side-card-slide swiper-slide">
+											<div class="side-card-slide-img">
+												<img src="https://picsum.photos/500/500" alt="İkinci">
+											</div>
+											<a href="#" class="category-tag">Finans</a>
+											<h5 class="side-card-slide-title">
+												<a href="#" title="İkinci">İkinci</a>
+											</h5>
+											<small class="elapsed">24 dakika önce</small>
+										</div>
+
+									</div>
+
+									<div class="side-card-slider-nav">
+										<div class="swiper-pagination"></div>
+									</div>
+
+								</div>
+							</div>
+							<!-- End Side Card Slider -->
+
+							<!-- Start Side Card Social -->
+							<div class="side-card side-card-social">
+								<div class="side-card-top">
+									<h5 class="side-card-heading">Sosyal Medya'da Biz</h5>
+								</div>
+								<div class="side-card-items">
+									<img src="assets/images/@finans-gundem/modul.png" alt="MODÜL">
+								</div>
+							</div>
+							<!-- End Side Card Social -->
+
+							<!-- Start Side Card -->
+							<div class="side-card">
+								<div class="side-card-top">
+									<h5 class="side-card-heading">BASIN TOPLANTISI ETKİNLİK &amp; KONFERANS</h5>
+								</div>
+
+								<div class="side-card-items">
+									<a href="#" class="side-card-activity" title="Basın Daveti">
+										<h5 class="card-item-title-18">Basın Daveti</h5>
+										<h6 class="card-item-title-14">Türkiye Kurumsal Yatırımcı Yöneticileri Derneği</h6>
+										<p class="activity-date">31 Ağustos 2021 - 09:30</p>
+										<p class="side-card-activity-desc">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Est animi hic obcaecati sunt commodi
+											blanditiis temporibus delectus aspernatur inventore. Quae.
+										</p>
+									</a>
+
+									<a href="#" class="fg-btn fg-btn-soft fg-btn-arrow">
+										Tümünü Görüntüle
+										<img src="assets/images/@finans-gundem/svg/angle-right-primary.svg">
+									</a>
+								</div>
+							</div>
+							<!-- End Side Card -->
+
+							<!-- Start Side Ad -->
+							<div class="ad">
+								<img src="assets/images/@finans-gundem/ad-square.png">
+							</div>
+							<!-- End Side Ad -->
+
+						</aside>
+						<!-- End Section Aside -->
+
+					</div>
+				</section>
+
+				<!--=====================================
+													  	END FG HOME CONTENT
+				===================================== -->
+
+			</div>
+
+			</div><!-- .content-wrap -->
+		</section><!-- #content end -->
+
+	</main><!-- #wrapper end -->
+
+	<!-- Start Footer -->
+	<footer id="tg-footer">
+		<div class="container">
+
+			<!-- Start Footer Mid Content -->
+			<div id="tg-footer-content">
+				<div class="container">
+					<div class="row">
+
+						<div id="tg-for-all-devices-mobile">
+							<img height="170" src="assets/images/@finans-gundem/devices.png" alt="Tüm cihazlarda" draggable="false">
+
+							<div class="tg-app-links">
+								<a href="#" target="_blank" class="tg-app-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+										<path
+											d="M9.173,6.372c-.876,0-2.232-1-3.66-.96A5.4,5.4,0,0,0,.929,8.2c-1.956,3.4-.5,8.412,1.4,11.172.936,1.344,2.04,2.856,3.5,2.808,1.4-.06,1.932-.912,3.636-.912s2.172.912,3.66.876c1.512-.024,2.472-1.368,3.4-2.724a12.06,12.06,0,0,0,1.536-3.156,4.9,4.9,0,0,1-2.976-4.488,4.978,4.978,0,0,1,2.4-4.212,5.2,5.2,0,0,0-4.056-2.2c-1.848-.144-3.4,1.008-4.26,1.008Zm3.12-2.832A4.851,4.851,0,0,0,13.449,0a4.99,4.99,0,0,0-3.264,1.68A4.64,4.64,0,0,0,9.009,5.112,4.137,4.137,0,0,0,12.293,3.54Z"
+											transform="translate(2.451 0.85)" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										App Store
+									</div>
+								</a>
+
+								<a href="#" target="_blank" class="tg-app-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+										<path
+											d="M.609,0,10.792,10.186.61,20.372a1,1,0,0,1-.61-.92V.92A1,1,0,0,1,.609,0ZM11.5,10.893l2.3,2.3L2.864,19.528Zm3.2-3.2,2.8,1.628a1,1,0,0,1,0,1.73l-2.8,1.626-2.494-2.491ZM2.864.844,13.8,7.176l-2.3,2.3Z"
+											transform="translate(3 1.814)" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										Play Store
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="tg-footer-item col-lg-4">
+							<div class="tg-footer-logo-wrap">
+								<a href="/">
+									<img src="assets/images/@finans-gundem/logo-2.png" alt="Otomobil Sayfası" draggable="false">
+								</a>
+								<p>Tüm hakları <a href="#" target="_blank">Gündem Medya Grubu</a>'na aittir.</p>
+							</div>
+						</div>
+
+						<div id="tg-for-all-devices" class="col-lg-4">
+							<img height="170" src="assets/images/@finans-gundem/devices.png" alt="Tüm cihazlarda" draggable="false">
+						</div>
+
+						<div class="tg-footer-item col-lg-4">
+							<div class="tg-app-links">
+								<a href="#" target="_blank" class="tg-app-link" title="App Store">
+									<svg xmlns="http://www.w3.org/2000/svg" width="18.061" height="22.177" viewBox="0 0 18.061 22.177">
+										<path fill="#ce171f"
+											d="M9.173,6.372c-.876,0-2.232-1-3.66-.96A5.4,5.4,0,0,0,.929,8.2c-1.956,3.4-.5,8.412,1.4,11.172.936,1.344,2.04,2.856,3.5,2.808,1.4-.06,1.932-.912,3.636-.912s2.172.912,3.66.876c1.512-.024,2.472-1.368,3.4-2.724a12.06,12.06,0,0,0,1.536-3.156,4.9,4.9,0,0,1-2.976-4.488,4.978,4.978,0,0,1,2.4-4.212,5.2,5.2,0,0,0-4.056-2.2c-1.848-.144-3.4,1.008-4.26,1.008Zm3.12-2.832A4.851,4.851,0,0,0,13.449,0a4.99,4.99,0,0,0-3.264,1.68A4.64,4.64,0,0,0,9.009,5.112,4.137,4.137,0,0,0,12.293,3.54Z" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										App Store
+									</div>
+								</a>
+
+								<a href="#" target="_blank" class="tg-app-link" title="Google Play Store">
+									<svg xmlns="http://www.w3.org/2000/svg" width="17.998" height="20.372" viewBox="0 0 17.998 20.372">
+										<path fill="#ce171f"
+											d="M.609,0,10.792,10.186.61,20.372a1,1,0,0,1-.61-.92V.92A1,1,0,0,1,.609,0ZM11.5,10.893l2.3,2.3L2.864,19.528Zm3.2-3.2,2.8,1.628a1,1,0,0,1,0,1.73l-2.8,1.626-2.494-2.491ZM2.864.844,13.8,7.176l-2.3,2.3Z" />
+									</svg>
+									<div>
+										<span>Uygulamayı İndir</span>
+										Play Store
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- End Footer Mid Content -->
+
+			<div class="abbr-links">
+				<div class="container">
+					<div class="row">
+
+						<a href="#" class="abbr-link">
+							<span style="background-color: #1E3849; color: #fff">FG</span>
+							Finans Gündem
+						</a>
+						<a href="#" class="abbr-link">
+							<span style="background-color: #C24742; color: #fff;">OS</span>
+							Otomobil Sayfası
+						</a>
+						<a href="#" class="abbr-link">
+							<span style="background-color: #000; color: #fff;">TG</span>
+							Teknoloji Gündem
+						</a>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Start Footer Categories -->
+			<div id="footer-categories">
+				<h5 class="footer-cat-title">Kategoriler</h5>
+				<div class="row p-0">
+					<div class="col-lg-2">
+						<a href="#" title="Araştırma">Araştırma</a>
+						<a href="#" title="Emlak">Emlak</a>
+						<a href="#" title="Otomotiv">Otomotiv</a>
+						<a href="#" title="Sigorta - BES ve Hayat">Sigorta - BES ve Hayat</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="İlginç Bankacı Hikayeleri">İlginç Bankacı Hikayeleri</a>
+						<a href="#" title="Kripto Paralar">Kripto Paralar</a>
+						<a href="#" title="Para Komedi">Para Komedi</a>
+						<a href="#" title="Teknoloji">Teknoloji</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="Gündem">Gündem</a>
+						<a href="#" title="Bankacılık">Bankacılık</a>
+						<a href="#" title="Finans Kulis">Finans Kulis</a>
+						<a href="#" title="Leasing - Faktoring">Leasing - Faktoring</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="Makro Ekonomi">Makro Ekonomi</a>
+						<a href="#" title="Para Piyasa">Para Piyasa</a>
+						<a href="#" title="Röportajlar">Röportajlar</a>
+						<a href="#" title="Spor">Spor</a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#" title="Yaşam - Magazin">Yaşam - Magazin</a>
+						<a href="#" title="Yazarlar">Yazarlar</a>
+						<a href="#" title="Ödeme Sistemleri">Ödeme Sistemleri</a>
+						<a href="#" title="Kazandıran Sohbetler">Kazandıran Sohbetler</a>
+					</div>
+				</div>
+			</div>
+			<!-- End Footer Categories -->
+
+			<!-- Start Footer Desc -->
+			<div class="tg-footer-desc">
+				<p>
+					Finansgundem.com’da yer alan bilgi, yorum ve tavsiyeleri yatırım danışmanlığı kapsamında değildir. Yatırım
+					danışmanlığı hizmeti; aracı kurumlar, portföy yönetim şirketleri, mevduat kabul etmeyen bankalar ile müşteri
+					arasında imzalanacak yatırım danışmanlığı sözleşmesi çerçevesinde sunulmaktadır. Burada yer alan yorum ve
+					tavsiyeler, yorum ve tavsiyede bulunanların kişisel görüşlerine dayanmaktadır. Bu görüşler mali durumunuz ile
+					risk ve getiri tercihlerinize uygun olmayabilir. Bu nedenle, sadece burada yer alan bilgilere dayanılarak
+					yatırım kararı verilmesi beklentilerinize uygun sonuçlar doğurmayabilir. Burada yer alan bilgiler, güvenilir
+					olduğuna inanılan halka açık kaynaklardan elde edilmiş olup bu kaynaklardaki bilgilerin hata ve eksikliğinden
+					ve ticari amaçlı işlemlerde kullanılmasından doğabilecek zararlardan www.finansgundem.com ve yöneticileri
+					hiçbir şekilde sorumluluk kabul etmemektedir. Burada yer alan görüş ve düşüncelerin <a
+						href="https://www.finansgundem.com">www.finansgundem.com</a> ve
+					yönetimi için hiçbir bağlayıcılığı yoktur.
+				</p>
+				<p>
+					BİST isim ve logosu <span>“koruma marka belgesi”</span> altında korunmakta olup izinsiz kullanılamaz, iktibas
+					edilemez, değiştirilemez. BİST ismi altında açıklanan tüm bilgilerin telif hakları tamamen BİST’e ait olup,
+					tekrar yayınlanamaz.
+				</p>
+			</div>
+			<!-- End Footer Desc -->
+
+			<!-- Start Footer Bottom -->
+			<div id="tg-footer-bottom">
+				<div class="container">
+
+					<div class="tg-footer-bottom-item">
+						<p class="tg-footer-copy">&copy; 2021 <a href="/">FinansGündem.com</a>. <span>Tüm hakları saklıdır.</span>
+						</p>
+					</div>
+
+					<div class="tg-footer-bottom-item">
+						<div class="tg-footer-bottom-links">
+							<a href="#" class="tg-footer-bottom-link">RSS</a>
+							<a href="#" class="tg-footer-bottom-link">Künye</a>
+							<a href="#" class="tg-footer-bottom-link">İletişim</a>
+							<a href="#" class="tg-footer-bottom-link">Reklam</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- End Footer Bottom -->
+
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- Go To Top
+	============================================= -->
+	<!-- <div id="gotoTop" class="icon-angle-up"></div> -->
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+
+	<!-- Date & Time Picker JS -->
+	<script src="assets/js/components/moment.js"></script>
+	<script src="assets/js/components/timepicker.js"></script>
+	<script src="assets/js/components/datepicker.js"></script>
+
+	<!-- Include Date Range Picker -->
+	<script src="assets/js/components/daterangepicker.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="assets/js/functions.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
